@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4080491713675088471
+--- !u!1001 &6102554930074795360
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,75 +10,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2304851658673914556, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 0.33333334
       objectReference: {fileID: 0}
     - target: {fileID: 2304851658673914556, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.73333335
       objectReference: {fileID: 0}
     - target: {fileID: 2304851658673914556, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637430279597302498, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637430279597302498, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637430279597302498, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637430279597302498, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637430279597302498, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3637430279597302498, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.972549
       objectReference: {fileID: 0}
     - target: {fileID: 5413927620368408974, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_Name
-      value: Ghost_Blinky
-      objectReference: {fileID: 0}
-    - target: {fileID: 5537212279277827211, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_Size.x
-      value: 31.965624
-      objectReference: {fileID: 0}
-    - target: {fileID: 5537212279277827211, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_Size.y
-      value: 19.76
-      objectReference: {fileID: 0}
-    - target: {fileID: 5537212279277827211, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: -8438532808585926239, guid: df09dbd7b1ea2af47b74808ed5171b71, type: 3}
-    - target: {fileID: 5537212279277827211, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_SortingOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5537212279277827211, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
+      value: Ghost_Clyde
       objectReference: {fileID: 0}
     - target: {fileID: 7512053924808056811, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 2.3489
       objectReference: {fileID: 0}
     - target: {fileID: 7512053924808056811, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 2.30129
       objectReference: {fileID: 0}
     - target: {fileID: 7512053924808056811, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7512053924808056811, guid: e55e4313f59957c409ff69e23e0f55cb, type: 3}
       propertyPath: m_LocalRotation.w
