@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     
     //change gameobject to name of script on ghosts and pacman when created!
-    public Ghost ghosts;
+    public Ghost[] ghosts;
 
     public Pacman1 pacman;
 

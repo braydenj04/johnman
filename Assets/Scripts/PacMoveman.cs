@@ -74,11 +74,7 @@ public class Movement : MonoBehaviour
         return hit.collider != null;
     }
 
-    public void RestetState()
-    {
-        this.gameObject.SetActive(true);
-        this.movement.ResetState();
-    }
+
 
 }
 
