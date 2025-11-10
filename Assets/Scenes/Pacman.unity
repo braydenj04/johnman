@@ -8953,6 +8953,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3184143337172240721, guid: df78c18e928424c41891938d447d7d52, type: 3}
+      propertyPath: duration
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4760839842051901663, guid: df78c18e928424c41891938d447d7d52, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9002,6 +9006,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df78c18e928424c41891938d447d7d52, type: 3}
+--- !u!114 &1018890946 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7037331412484723887, guid: df78c18e928424c41891938d447d7d52, type: 3}
+  m_PrefabInstance: {fileID: 1018890945}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c050b0777aa7942967fc3c634b9fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1129909724
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9063,6 +9078,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a64dd41391f4ed54d92a06dbecd6ac9f, type: 3}
+--- !u!114 &1129909725 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8311540004398191052, guid: a64dd41391f4ed54d92a06dbecd6ac9f, type: 3}
+  m_PrefabInstance: {fileID: 1129909724}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c050b0777aa7942967fc3c634b9fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1194745019
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9071,6 +9097,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1970947221177256151, guid: a29f2660c54bce14399f1c55975b8b8d, type: 3}
+      propertyPath: duration
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6204138045763811132, guid: a29f2660c54bce14399f1c55975b8b8d, type: 3}
       propertyPath: m_Name
       value: Ghost_Inky
@@ -9124,6 +9154,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a29f2660c54bce14399f1c55975b8b8d, type: 3}
+--- !u!114 &1194745020 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6252105496423945513, guid: a29f2660c54bce14399f1c55975b8b8d, type: 3}
+  m_PrefabInstance: {fileID: 1194745019}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c050b0777aa7942967fc3c634b9fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1424118570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9180,11 +9221,26 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5967607865278079749, guid: 9af112a3ee8abda49811e03f979b02a0, type: 3}
+      propertyPath: duration
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af112a3ee8abda49811e03f979b02a0, type: 3}
+--- !u!114 &1424118571 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2254321409007795963, guid: 9af112a3ee8abda49811e03f979b02a0, type: 3}
+  m_PrefabInstance: {fileID: 1424118570}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c050b0777aa7942967fc3c634b9fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1473518688
 GameObject:
   m_ObjectHideFlags: 0
@@ -9214,7 +9270,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78deae96a5a3e204b89a12ef047554dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ghosts: []
+  ghosts:
+  - {fileID: 1129909725}
+  - {fileID: 1194745020}
+  - {fileID: 1018890946}
+  - {fileID: 1424118571}
   pacman: {fileID: 0}
   pellets: {fileID: 0}
 --- !u!4 &1473518690

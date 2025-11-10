@@ -290,6 +290,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be4b53a14282654092629ed411ced83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 7
+  speedMultiplier: 1
+  initialDirection: {x: 0, y: 0}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &5474217709872677787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,6 +308,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61c050b0777aa7942967fc3c634b9fbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialBehavior: {fileID: 0}
+  target: {fileID: 0}
+  points: 200
 --- !u!114 &459810110924955237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -314,6 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2921c065ffa77d4eb52b33598f4794c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  duration: 0
 --- !u!114 &6833617767585966771
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12b75bb8c092fc1479415415a265224f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  duration: 7
 --- !u!114 &7105822648913934393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,6 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25053c98b3586db45ac449c151f91b15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  duration: 20
 --- !u!114 &2048761134678170147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,3 +362,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33b472a0205eac245b4be0158e02f48c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  duration: 8
