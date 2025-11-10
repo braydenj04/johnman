@@ -39,8 +39,6 @@ public class Movement : MonoBehaviour
         this.transform.position = this.startingPosition;
         this.nextDirection = Vector2.zero;
         this.enabled = true;
-        this.gameObject.SetActive(true);
-        this.Movement.ResetState();
     }
     private void Update()
     {
@@ -76,6 +74,11 @@ public class Movement : MonoBehaviour
         return hit.collider != null;
     }
 
+    public void RestetState()
+    {
+        this.gameObject.SetActive(true);
+        this.movement.ResetState();
+    }
 
 }
 
