@@ -48,7 +48,7 @@ public class Ghost : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) 
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Pacman "))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("pacmanChar"))
         {
             Object.FindAnyObjectByType<GameManager>().PacmanEaten();
         }
