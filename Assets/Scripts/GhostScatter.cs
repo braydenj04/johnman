@@ -8,7 +8,12 @@ public class GhostScatter : GhostBehavior
 
         if (node != null && !this.enabled && !this.ghost.frightened.enabled) 
         {
+            int index = Random.Range(0, node.availableDirections.Count);
 
+            if (node.availableDirections[index] == -this.ghost.movement.direction) 
+            { 
+
+            }
         }
     }
 }
