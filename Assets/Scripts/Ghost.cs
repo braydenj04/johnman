@@ -29,6 +29,25 @@ public class Ghost : MonoBehaviour
     }
     public void ResetState() 
     {
+        this.gameObject.SetActive(true);
+        this.movement.ResetState();
+
+        this.frightened.Disable();
+        this.chase.Disable();
+        this.scatter.Enable();
+
+        if (this.home != null) 
+        {
+            this.home.Disable();
+        }
+        if (this.initialBehavior != null)
+        {
+            this.initialBehavior.Enable();
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) 
+    {
 
     }
 
