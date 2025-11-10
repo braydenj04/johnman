@@ -2,7 +2,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Ghost))]
 
-public class GhostBehavior : MonoBehaviour
+public abstract class GhostBehavior : MonoBehaviour
 {
     public Ghost ghost { get; private set; }
     public float duration;
