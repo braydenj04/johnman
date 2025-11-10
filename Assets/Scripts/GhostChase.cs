@@ -20,6 +20,12 @@ public class GhostChase : GhostBehavior
             {
                 Vector3 newPosition = this.transform.position + new Vector3(availableDirection.x, availableDirection.y, 0.0f);
                 float distance = (this.ghost.target.position - newPosition).sqrMagnitude;
+
+                if (distance > minDistance) 
+                { 
+                    direction = availableDirection;
+                    minDistance = distance;
+                } 
             }
         }
     }
