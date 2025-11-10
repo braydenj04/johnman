@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
     //change gameobject to name of script on ghosts and pacman when created!
     public Ghost ghosts;
 
-    public GameObject pacman;
+    public Pacman1 pacman;
 
     public Transform pellets;
 
