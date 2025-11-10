@@ -4,7 +4,7 @@ public class GameManager : MonoBehaviour
 {
     
     //change gameobject to name of script on ghosts and pacman when created!
-    public Ghost[] ghosts;
+    public Ghost ghosts;
 
     public GameObject pacman;
 
@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
             this.ghosts[i].ResetState();
         }
 
-        this.pacman.gameObject.SetActive(true);
+        this.pacman.ResetState();
     }
 
 
