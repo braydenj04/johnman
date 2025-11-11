@@ -36,8 +36,8 @@ public class Movement : MonoBehaviour
     {
         this.speedMultiplier = 1f;
         this.direction = this.initialDirection;
-        this.transform.position = this.startingPosition;
         this.nextDirection = Vector2.zero;
+        this.transform.position = this.startingPosition;        
         this.enabled = true;
     }
     private void Update()
