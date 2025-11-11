@@ -1,6 +1,8 @@
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
+[RequireComponent(typeof(Movement))]
+
 public class Pacman1 : MonoBehaviour
 {
     public Movement movement {  get; private set; }
