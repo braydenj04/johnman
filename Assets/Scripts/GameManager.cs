@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -40,9 +39,9 @@ public class GameManager : MonoBehaviour
     }
 
     //this resets all ghosts, pacman and pellets to be visible at the start of the game
-    private void NewRound()
+    private void NewRound() 
     {
-        foreach (Transform pellet in this.pellets)
+        foreach (Transform pellet in this.pellets) 
         {
             pellet.gameObject.SetActive(true);
         }
@@ -102,32 +101,4 @@ public class GameManager : MonoBehaviour
             GameOver();
         }
     }
-
-    // if pacman eats a pellet he gets points
-    public void PelletEaten(Pellet pellet)
-    {
-        pellet.gameObject.SetActive(false);
-        SetScore(this.score + pellet.points);
-
-        if (!AllEaten())
-        {
-            this.pacman.gameObject.SetActive(false);
-            Invoke(nameof(NewRound), 3f);
-        }
-    }
-
-    //checks if all the pellets are eaten
-    private bool AllEaten() {
-        foreach (Transform pellet in this.pellets)
-        {
-            if (pellet.gameObject.activeSelf) { 
-            return true;
-            }
-        }
-        return false;
-    }
-
-
-        
-
 }
