@@ -50,7 +50,7 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         Vector2 position = this.rigidbody.position;
-        Vector2 translation = this.direction * this.speed * this.speedMultiplier * Time.fixedDeltaTime;
+        Vector2 translation = this.speed * this.speedMultiplier * Time.fixedDeltaTime * this.direction;
         this.rigidbody.MovePosition(position + translation);
     }
 
