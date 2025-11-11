@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
             this.ghosts[i].ResetState();
         }
 
-        this.pacman.ResetState();
+        this.pacman.gameObject.SetActive(true);
     }
 
 
@@ -113,7 +113,7 @@ public class GameManager : MonoBehaviour
         if (!AllEaten())
         {
             this.pacman.gameObject.SetActive(false);
-            Invoke(nameof(NewRound), 3f);
+            Invoke(nameof(NewRound), 3.0f);
         }
     }
 

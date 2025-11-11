@@ -5,11 +5,11 @@ public class Node : MonoBehaviour
 {
 
     public LayerMask obstacleLayer;
-    public List<Vector2> availableDirections {  get; private set; }
+    public readonly List<Vector2> availableDirections = new();
 
     private void Start()
     {
-        this.availableDirections = new List<Vector2>();
+        this.availableDirections.Clear();
 
         CheckAvailableDirection(Vector2.up);
         CheckAvailableDirection(Vector2.down);

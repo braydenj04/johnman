@@ -1,4 +1,3 @@
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 [RequireComponent(typeof(Movement))]
@@ -35,8 +34,8 @@ public class Pacman1 : MonoBehaviour
 
     public void ResetState()
     {
-        this.gameObject.SetActive(true);
         this.movement.ResetState();
+        this.gameObject.SetActive(true);        
     }
 
 }

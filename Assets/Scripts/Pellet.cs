@@ -1,5 +1,7 @@
 using UnityEngine;
 
+
+[RequireComponent(typeof(Collider2D))]
 public class Pellet : MonoBehaviour
 {
     public int points = 10;
@@ -7,8 +9,8 @@ public class Pellet : MonoBehaviour
 
 
     protected virtual void Eat()
-    { 
-        this.gameObject.SetActive(false);
+    {
+        FindFirstObjectByType<GameManager>().PelletEaten(this);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
