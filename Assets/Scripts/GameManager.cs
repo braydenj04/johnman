@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
             this.ghosts[i].ResetState();
         }
 
-        this.pacman.gameObject.SetActive(true);
+        this.pacman.ResetState();
     }
 
 

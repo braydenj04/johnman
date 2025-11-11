@@ -37,7 +37,7 @@ public class Ghost : MonoBehaviour
         this.chase.Disable();
         this.scatter.Enable();
 
-        if (this.home != null) 
+        if (this.home != this.initialBehavior) 
         {
             this.home.Disable();
         }
@@ -49,9 +49,9 @@ public class Ghost : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) 
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("pacmanChar"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Pacman"))
         {
-            Object.FindAnyObjectByType<GameManager>().PacmanEaten();
+            FindFirstObjectByType<GameManager>().PacmanEaten();
         }
     }
 }
